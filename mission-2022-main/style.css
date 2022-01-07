@@ -1,0 +1,30 @@
+body{
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+} 
+.container{
+    margin: auto;
+    }
+.border{
+    border-left:3px solid maroon;
+    padding:10px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.color-changing{
+    color:indianred;
+}
+.half-width{
+    display: flex;
+    width:80%;
+    padding-left:50px;
+}
+.half-width img{
+    width:100%;
+}
+.button-design{
+    color:snow;
+    background-color:tomato;
+    padding:10px 20px;
+    border-radius: 5px;
+}
