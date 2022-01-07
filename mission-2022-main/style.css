@@ -1,10 +1,23 @@
-body{
-font-family: 'Poppins', sans-serif;
+body p{
 font-family: 'Roboto', sans-serif;
 } 
+body h1,h2,h3,h4,a,button{
+    font-family: 'Poppins', sans-serif;
+}
 .container{
     margin: auto;
+    width:80%;
     }
+ .text,.section-img1{
+     width:50%;
+ }
+ .text{
+     margin-top: 5%;
+ }
+ .section-img1 img{
+     width:80%;
+     padding-left: 20%;
+ }
 .border{
     border-left:3px solid maroon;
     padding:10px;
@@ -16,15 +29,74 @@ font-family: 'Roboto', sans-serif;
 }
 .half-width{
     display: flex;
-    width:80%;
-    padding-left:50px;
+   padding-top: 15px;
 }
-.half-width img{
-    width:100%;
-}
+
 .button-design{
     color:snow;
     background-color:tomato;
     padding:10px 20px;
     border-radius: 5px;
+    border:1px solid tomato;
+}
+.headline{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.headline-design{
+    font-size: 30px;
+    font-weight: 700;
+}
+.develop-text{
+    width:50%;
+}
+.develop-img{
+    width:50%;
+}
+.section-img2{
+    width:80%;
+}
+.box-mission,.box-vission,.box-goals{
+   width:32%;
+   margin-right: 20px;
+   padding:15px 20px;
+   border-radius: 8px;
+}
+.box-img{
+    width:50%;
+}
+.box-mission{
+    background-color: lavender;
+}
+.box-vission{
+    background-color:rgba(152, 251, 152, 0.493);
+}
+.box-goals{
+    background-color:lightcyan;
+}
+.spacing{
+    padding-bottom: 3%;
+}
+.footer{
+    background-color: black;
+    padding:20px 0;
+    text-align: center;
+    color:white;
+}
+.qoute-box{
+    width:75%;
+    margin:auto;
+    padding:20px 25px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.1);
+}
+.qoute-img{
+    border-radius: 50%;
+}
+.qoute-bg{
+    background-color:rgba(191, 239, 255, 0.473);
+    padding:5% 0;
 }
